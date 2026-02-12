@@ -68,7 +68,7 @@ Update personal info in `index.html`:
 Add your resume PDF:
 
 ```bash
-cp ~/path/to/resume.pdf Assets/resume/SushrutVaidya_Resume.pdf
+cp ~/path/to/resume.pdf Assets/resume/Resume.pdf
 ```
 
 Adjust film reel dimensions in `index.css`:
@@ -110,6 +110,3 @@ docker push username/portfolio
 
 Chrome 60+, Firefox 60+, Safari 12+, Edge 79+
 
-## License
-
-MIT
