@@ -1,8 +1,28 @@
-# Ignore these files when building Docker image
-.DS_Store
+# Git files
 .git
 .gitignore
+
+# Documentation
 README.md
+DOCKER.md
+EC2-DEPLOY.md
 *.md
+
+# Development files
+.DS_Store
 .vscode
 .idea
+
+# Deployment scripts (not needed in image)
+start.sh
+deploy-ec2.sh
+Dockerfile.ec2
+
+# SSL config (use nginx.conf for HTTP-only)
+nginx-ssl.conf
+
+# Misc
+*.log
+*.tar.gz
+portfolio.tar.gz
+
